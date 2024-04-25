@@ -16,7 +16,7 @@
     </section>
 
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 sm:py-12 lg:py-20 px-4 mx-auto max-w-screen-md">
+        <div class="py-8 sm:py-12 lg:py-16  px-4 mx-auto max-w-screen-lg">
 
             <p class="font-normal text-gray-500 dark:text-gray-400 sm:text-xl">
                 Ristek adalah divisi yang berfokus pada pengembangan minat bakat mahasiswa, RISTEK membuka kesempatan
@@ -27,8 +27,8 @@
     <section>
 
         <section class="bg-white dark:bg-gray-900 antialiased">
-            <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-              <div class="max-w-3xl mx-auto text-center">
+            <div class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-20">
+              <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-4xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">
                   Program Kerja
                 </h2>
@@ -57,7 +57,7 @@
                         Ngopi Pintar</a>
                     </h3>
                     <p class=" text-lg font-normal text-gray-500 dark:text-gray-400">
-                      Komunitas belaja IT
+                      Komunitas belajar IT
                     </p>
                   </div>
 
@@ -67,7 +67,7 @@
           </section>
 
     <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 sm:lg-6 lg:px-16">
+        <div class="py-8 px-4 mx-auto max-w-screen-lg text-center lg:py-16 sm:lg-6 lg:px-16">
             <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Daftar Anggota</h2>
                 <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Jelajadi profile anggota</p>
