@@ -4,13 +4,17 @@
 
 @section('content')
     {{-- bg-blend-overlay bg-fixed bg-black/50 --}}
-    <section class=" py-16 flex flex-1 items-center bg-center bg-cover bg-white dark:bg-gray-900">
-        <div class="pb-8 px-4 mx-auto max-w-screen-xl text-left sm:text-center lg:pb-20 lg:pt-32 lg:px-12 ">
+    <section class="relative py-16 flex flex-1 items-center bg-center bg-cover bg-white dark:bg-gray-900">
+        <div class="absolute grid grid-cols-2 gap-0 inset-0 w-full m-auto top-40 h-max opacity-40">
+            <div class="blur-[125px] h-56 bg-primary-400"></div>
+            <div class="blur-[125px] h-56 bg-violet-500"></div>
+        </div>
+        <div class="pt-12 px-4 mx-auto max-w-screen-xl text-center lg:pb-20 lg:pt-32 lg:px-12 ">
             <h1 class="mb-4 text-4xl font-bold leading-none sm:text-6xl lg:text-7xl text-gray-900 dark:text-white">
                 HIMPUNAN MAHASISWA <br> <span
                     class="bg-gradient-to-r from-indigo-600 to-cyan-500 inline-block text-transparent bg-clip-text ">INFORMATIKA</span>
             </h1>
-            <p class="mb-12 text-lg font-semibold text-gray-600 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-300">
+            <p class="mb-4 text-lg font-semibold text-gray-600 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-300">
                 Universitas Internasional Semen Indonesia</p>
         </div>
     </section>
