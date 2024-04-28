@@ -74,11 +74,11 @@
             </div>
             <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
-                    <img class="mx-auto mb-4 w-40 h-40 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
-                    <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        <a href="#">Ucup</a>
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Guntur Anugroho Putra Abadi</a>
                     </h3>
-                    <p>CEO</p>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
                     {{-- <ul class="flex justify-center mt-4 space-x-4">
                         <li>
                             <a href="#" class="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
@@ -101,6 +101,46 @@
                             </a>
                         </li>
                     </ul> --}}
+                </div>
+
+                <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Arya Putra Kusuma</a>
+                    </h3>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
+                </div>
+
+                <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Arya Putra Kusuma</a>
+                    </h3>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
+                </div>
+
+                <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Arya Putra Kusuma</a>
+                    </h3>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
+                </div>
+
+                <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Arya Putra Kusuma</a>
+                    </h3>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
+                </div>
+
+                <div class="text-center text-gray-500 dark:text-gray-400 mb-2">
+                    <img class="mx-auto mb-4 w-48 h-w-48 rounded-md transition duration-700 ease-in-out grayscale hover:grayscale-0" src="{{ asset('img/UISI6762.JPG') }}" alt="Bonnie Avatar">
+                    <h3 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                        <a href="#">Arya Putra Kusuma</a>
+                    </h3>
+                    <span class="bg-primary-500 text-xs text-white px-3 py-1 rounded-full">CEO</span>
                 </div>
 
             </div>

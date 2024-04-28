@@ -34,7 +34,7 @@
                         Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
                         malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.</p>
                     <div class="mt-8">
-                        <a href="#" class="text-blue-500 hover:text-blue-600 font-medium">Lihat selengkapnya
+                        <a href="{{ route('about') }}" class="text-blue-500 hover:text-blue-600 font-medium">Lihat selengkapnya
                             <span class="ml-2">&#8594;</span></a>
                     </div>
                 </div>
@@ -44,7 +44,8 @@
 
     <section class="bg-white dark:bg-gray-900">
         <div class="px-4 sm:px-16 py-12 lg:py-16 items-center">
-            <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl lg:text-4xl sm:text-center lg:text-left dark:text-white">
+            <h1
+                class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl lg:text-4xl sm:text-center lg:text-left dark:text-white">
                 Tujuan
             </h1>
             <p class="font-ligth text-gray-500 md:text-lg sm:text-center lg:text-left mb-2 dark:text-gray-400">
@@ -69,9 +70,11 @@
                     </p>
                 </div>
 
-                <div class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg ">
+                <div
+                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg ">
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Hubungan Kemasyarakatan</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Menjalin hubungan yang baik dan berkontribusi aktif dalam kegiatan kemasyarakatan
+                    <p class="text-gray-500 dark:text-gray-400">Menjalin hubungan yang baik dan berkontribusi aktif dalam
+                        kegiatan kemasyarakatan
                         yang berasaskan kekeluargaan</p>
                 </div>
 
@@ -85,6 +88,74 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900">
+        <div class="px-4 sm:px-16 py-12 lg:py-16">
+            <h1 class="mb-8 text-4xl font-extrabold text-center leading-none tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-white">
+                Tujuan
+            </h1>
+            <div id="controls-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-80 overflow-hidden rounded-lg md:h-96">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://source.unsplash.com/random"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <img src="https://source.unsplash.com/random"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://source.unsplash.com/random"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://source.unsplash.com/random"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="https://source.unsplash.com/random"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30
+                         group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white
+                          dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+
     </section>
 
     <section id="follow" class="bg-white dark:bg-gray-800">
@@ -107,8 +178,10 @@
                 </div>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8 px-4">
-                <img class="w-full rounded-lg hover:translate-x-2 hover:translate-y-2 transition-all duration-500" src="{{ asset('img/ig.jpg') }}" alt="office content 1">
-                <img class="mt-4 w-full lg:mt-10 rounded-lg hover:translate-x-2 hover:translate-y-2 transition-all duration-500" src="{{ asset('img/tk.jpg') }}" alt="office content 2">
+                <img class="w-full rounded-lg hover:translate-x-2 hover:translate-y-2 transition-all duration-500"
+                    src="{{ asset('img/ig.jpg') }}" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg hover:translate-x-2 hover:translate-y-2 transition-all duration-500"
+                    src="{{ asset('img/tk.jpg') }}" alt="office content 2">
             </div>
         </div>
     </section>
@@ -117,7 +190,8 @@
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Hubungi Kami
             </h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Anda punya pertanyaan, kritik atau saran, Beritahu Kami.</p>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Anda punya
+                pertanyaan, kritik atau saran, Beritahu Kami.</p>
             <form action="#" class="space-y-8">
                 <div>
                     <label for="email"

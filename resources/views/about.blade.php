@@ -18,11 +18,11 @@
 
     <main class=" relative pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
         <div class="absolute grid grid-cols-2 gap-52 inset-0 w-full m-auto h-max opacity-40">
-            <div class=" blur-[170px] h-40 bg-primary-500"></div>
+            <div class=" blur-[150px] h-40 bg-primary-500"></div>
             <div></div>
             <div></div>
-            <div class="blur-[170px] h-40 bg-primary-500"></div>
-            <div class=" blur-[170px] h-40 bg-primary-500"></div>
+            <div class="blur-[150px] h-40 bg-primary-500"></div>
+            <div class=" blur-[150px] h-40 bg-primary-500"></div>
             <div></div>
         </div>
         <div class="flex justify-between px-4 mx-auto max-w-screen-2xl">
