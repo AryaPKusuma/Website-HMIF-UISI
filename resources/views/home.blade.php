@@ -22,19 +22,26 @@
     <section class=" bg-white dark:bg-gray-900">
         <div class="py-16 px-4 sm:px-16">
             <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-                <div class="max-w-lg">
+                <div class="max-w-lg" data-aos="fade-up">
                     <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86" alt="About Us Image"
                         class="object-cover rounded-lg shadow-md">
                 </div>
-                <div class="mt-12 md:mt-0">
+                <div class="mt-12 md:mt-0" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl dark:text-gray-100">Tentang HMIF</h2>
-                    <p class="mt-4 text-gray-600 text-lg dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Sed quis
-                        eros at lacus feugiat hendrerit sed ut tortor. Suspendisse et magna quis elit efficitur consequat.
-                        Mauris eleifend velit a pretium iaculis. Donec sagittis velit et magna euismod, vel aliquet nulla
-                        malesuada. Nunc pharetra massa lectus, a fermentum arcu volutpat vel.</p>
+                    <p class="mt-4 text-gray-600 text-lg dark:text-gray-400 truncate text-ellipsis">Organisasi yang
+                        beroperasi di bawah naungan
+                        Program Studi Informatika di Universitas Internasional
+                        Semen Indonesia (UISI). Organisasi ini Diresmikan pada tanggal 24 Januari 2024, Himpunan Mahasiswa
+                        Informatika UISI (HMIF UISI) menjadi wadah utama bagi mahasiswa Departemen Informatika di
+                        universitas tersebut. Keanggotaan HMIF adalah mahasiswa aktif Teknik Informatika di UISI. Misi utama
+                        HMIF adalah untuk meningkatkan kemampuan mahasiswa Informatika di bidang akademik dan non-akademik.
+                        Dengan
+                        berbagai program dan kegiatan yang diselenggarakan, HMIF UISI berkomitmen untuk memberikan platform
+                        bagi mahasiswa untuk berkembang dalam berbagai aspek kehidupan mereka, baik dalam konteks akademis
+                        maupun pengembangan keterampilan lainnya.</p>
                     <div class="mt-8">
-                        <a href="{{ route('about') }}" class="text-blue-500 hover:text-blue-600 font-medium">Lihat selengkapnya
+                        <a href="{{ route('about') }}" class="text-blue-500 hover:text-blue-600 font-medium">Lihat
+                            selengkapnya
                             <span class="ml-2">&#8594;</span></a>
                     </div>
                 </div>
@@ -45,16 +52,22 @@
     <section class="bg-white dark:bg-gray-900">
         <div class="px-4 sm:px-16 py-12 lg:py-16 items-center">
             <h1
-                class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 sm:text-4xl lg:text-4xl sm:text-center lg:text-left dark:text-white">
+                class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900
+                m:text-4xl lg:text-4xl sm:text-center lg:text-left dark:text-white"
+                data-aos="fade-right" data-aos-duration="700">
                 Tujuan
             </h1>
-            <p class="font-ligth text-gray-500 md:text-lg sm:text-center lg:text-left mb-2 dark:text-gray-400">
+            <p class="font-ligth text-gray-500 md:text-lg sm:text-center lg:text-left mb-2 dark:text-gray-400"
+            data-aos="fade-right" data-aos-duration="700"  data-aos-delay="100">
                 lorem ipsum dolor shit amet
             </p>
 
-            <div class=" grid grid-cols md:grid-cols-2 gap-4 py-6">
+            <div class=" grid grid-cols md:grid-cols-2 gap-4 py-6 ">
                 <div
-                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg  ">
+                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400
+                     hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200
+                      hover:border-blue-500 transition-all duration-500 rounded-lg"
+                      data-aos="fade-up" data-aos-duration="700"  data-aos-delay="200">
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Mahasiswa Berkualitas</h3>
                     <p class="text-gray-500 dark:text-gray-400">
                         Menciptakan Mahasiswa Informatika UISI yang berkualitas, Inovatif, dan siap bersaing dalam
@@ -63,26 +76,35 @@
                 </div>
 
                 <div
-                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg ">
+                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400
+                     hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200
+                      hover:border-blue-500 transition-all duration-500 rounded-lg "
+                      data-aos="fade-up" data-aos-duration="700"  data-aos-delay="200">
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Entrepreneurial Spirit</h3>
                     <p class="text-gray-500 dark:text-gray-400">
-                        Menumbuhkan jiwa entrepreneurship bagi mahasiswa informatika UISI
+                        Menumbuhkan jiwa entrepreneurship bagi mahasiswa informatika UISI.
                     </p>
                 </div>
 
                 <div
-                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg ">
+                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400
+                     hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200
+                      hover:border-blue-500 transition-all duration-500 rounded-lg "
+                      data-aos="fade-up" data-aos-duration="700"  data-aos-delay="300">
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Hubungan Kemasyarakatan</h3>
-                    <p class="text-gray-500 dark:text-gray-400">Menjalin hubungan yang baik dan berkontribusi aktif dalam
-                        kegiatan kemasyarakatan
-                        yang berasaskan kekeluargaan</p>
+                    <p class="text-gray-500 dark:text-gray-400">Menjalin hubungan yang baik dan berkontribusi
+                        aktif dalam kegiatan kemasyarakatan
+                        yang berasaskan kekeluargaan.</p>
                 </div>
 
                 <div
-                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400 hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:border-blue-500 transition-all duration-500 rounded-lg ">
+                    class="bg-gray-50 text-gray-500 dark:bg-gray-800 p-6 dark:text-gray-400
+                     hover:bg-gray-300 hover:text-gray-900 dark:hover:bg-gray-700 dark:hover:text-gray-200
+                      hover:border-blue-500 transition-all duration-500 rounded-lg "
+                      data-aos="fade-up" data-aos-duration="700"  data-aos-delay="300">
                     <h3 class="mb-2 text-xl font-bold dark:text-white">Pengembangan Potensi</h3>
                     <p class="text-gray-500 dark:text-gray-400">
-                        Mewadahi, memproses, serta mengimplementasikan potensi dan kompetensi mahasiswa informatika UISI
+                        Mewadahi, memproses, serta mengimplementasikan potensi dan kompetensi mahasiswa informatika UISI.
                     </p>
                 </div>
             </div>
@@ -91,71 +113,65 @@
     </section>
 
     <section class="bg-white dark:bg-gray-900">
-        <div class="px-4 sm:px-16 py-12 lg:py-16">
-            <h1 class="mb-8 text-4xl font-extrabold text-center leading-none tracking-tight text-gray-900 sm:text-4xl lg:text-4xl dark:text-white">
-                Tujuan
-            </h1>
-            <div id="controls-carousel" class="relative w-full" data-carousel="static">
-                <!-- Carousel wrapper -->
-                <div class="relative h-80 overflow-hidden rounded-lg md:h-96">
-                    <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://source.unsplash.com/random"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                        <img src="https://source.unsplash.com/random"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://source.unsplash.com/random"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://source.unsplash.com/random"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="https://source.unsplash.com/random"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 sm:px-16 ">
+            <div class="mx-auto max-w-screen-sm text-center">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Badan Pengurus Harian</h2>
+                <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum distinctio praesentium voluptate nemo incidunt error odio suscipit doloribus eaque totam quas quasi, illo unde, a perspiciatis quis itaque perferendis ea?</p>
+            </div>
+            <div class="grid gap-4 mb-6 sm:grid-cols-2 lg:grid-cols-3 antialiased">
+                <div class="grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden rounded-2xl
+                px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900 mx-auto mt-16"
+                data-aos="zoom-in" data-aos-duration="700">
+                    <img src="{{ asset('img/2023/BPH/ucup.JPG') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 w-full text-3xl font-bold text-white">Bima Fahrudin Yusup</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Ketua Himpunan</div>
                 </div>
-                <!-- Slider controls -->
-                <button type="button"
-                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-prev>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30
-                         group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white
-                          dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M5 1 1 5l4 4" />
-                        </svg>
-                        <span class="sr-only">Previous</span>
-                    </span>
-                </button>
-                <button type="button"
-                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                    data-carousel-next>
-                    <span
-                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 9 4-4-4-4" />
-                        </svg>
-                        <span class="sr-only">Next</span>
-                    </span>
-                </button>
+
+                <div class="relative grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden rounded-2xl
+                px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900 mx-auto mt-16"
+                data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100">
+                    <img src="{{ asset('img/2023/BPH/wakil.jpg') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 mt-3 w-full text-3xl font-bold text-white">Ardiva Kamila Rohmadhani</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Wakil Ketua</div>
+                </div>
+
+                <div class="relative grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden
+                 rounded-2xl px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900 mx-auto mt-16"
+                 data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200">
+                    <img src="{{ asset('img/2023/BPH/sekretaris1.jpg') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Fatima Shinta Faradina</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Sekretaris 1</div>
+                </div>
+
+                <div class="relative grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900 mx-auto mt-16"
+                data-aos="zoom-in" data-aos-duration="700" data-aos-delay="100">
+                    <img src="{{ asset('img/2023/BPH/saekretaris2.jpg') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Siti Nurul Hidayati</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Sekretaris 2</div>
+                </div>
+
+                <div class="relative grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900 mx-auto mt-16"
+                data-aos="zoom-in" data-aos-duration="700" data-aos-delay="200">
+                    <img src="{{ asset('img/2023/BPH/bendahara1.jpg') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Febianti Roselina</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Bendahara 1</div>
+                </div>
+
+                <div class="relative grayscale hover:grayscale-0 transition duration-700 ease-out isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-full shadow-lg dark:shadow-primary-900  mx-auto mt-16"
+                data-aos="zoom-in" data-aos-duration="700" data-aos-delay="300">
+                    <img src="{{ asset('img/2023/BPH/bendahara2.jpg') }}" alt="University of Southern California" class="absolute inset-0 h-full w-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary-900 via-violet-800/5"></div>
+                    <h3 class="z-10 mt-3 text-3xl font-bold text-white">Naurah Safina</h3>
+                    <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-white">Bendahara 2</div>
+                </div>
+
             </div>
         </div>
-
     </section>
 
     <section id="follow" class="bg-gray-50 dark:bg-gray-800">

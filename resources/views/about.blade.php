@@ -34,9 +34,16 @@
                         class="py-4 text-3xl font-extrabold leading-tight text-gray-900 lg:py-6 lg:text-4xl dark:text-white">
                         Himpunan Mahasiswa Informatika Universitas Internasional Semen Indonesia
                     </h1>
-                    <p class=" text-gray-900 dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                        cumque nobis ab labore. Asperiores quis temporibus omnis id tempora, magni optio voluptatem dolor
-                        consequatur quo laborum amet. Deleniti, quidem vero.</p>
+                    <p class=" text-gray-900 dark:text-white">
+                        Organisasi yang beroperasi di bawah naungan Program Studi Informatika di Universitas Internasional
+                        Semen Indonesia (UISI). Organisasi ini Diresmikan pada tanggal 24 Januari 2024, Himpunan Mahasiswa
+                        Informatika UISI (HMIF UISI) menjadi wadah utama bagi mahasiswa Departemen Informatika di
+                        universitas tersebut. Keanggotaan HMIF adalah mahasiswa aktif Teknik Informatika di UISI. Misi utama
+                        HMIF adalah untuk meningkatkan kemampuan mahasiswa Informatika di bidang akademik dan non-akademik. Dengan
+                        berbagai program dan kegiatan yang diselenggarakan, HMIF UISI berkomitmen untuk memberikan platform
+                        bagi mahasiswa untuk berkembang dalam berbagai aspek kehidupan mereka, baik dalam konteks akademis
+                        maupun pengembangan keterampilan lainnya.
+                    </p>
                 </article>
 
                 <article>
