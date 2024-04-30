@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController as Home;
 use App\Http\Controllers\DivisiController as Divisi;
+use App\Http\Controllers\EmailController;
 
 Route::get('/', [Home::class, 'index'])->name('home');
 Route::get('/divisi-ristek', [Divisi::class, 'ristek'])->name('ristek');
@@ -13,3 +14,6 @@ Route::get('/divisi-kominfo', [Divisi::class, 'kominfo'])->name('kominfo');
 Route::get('/about', function () { return view('about'); })->name('about');
 Route::get('/contact', function () {
     return view('contact'); }) ->name('contact');
+
+
+Route::post('/emails', [EmailController::class, 'store'])->name('emails.store');
